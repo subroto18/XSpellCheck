@@ -8,10 +8,9 @@
 }
 
 .parent {
-  text-align: center;
   background-color: azure;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 20%;
+  width: 40%;
   height: 60%;
   border-radius: 10px;
   padding: 10px 20px;
@@ -22,8 +21,17 @@
 .input_div {
   margin-bottom: 10px;
 }
-.submit_btn {
-  margin-top: 10px;
+.word_text {
+  margin: 10px 0px;
+}
+.definition {
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.search_section {
+  display: flex;
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {

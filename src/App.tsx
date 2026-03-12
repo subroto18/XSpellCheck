@@ -1,12 +1,7 @@
 import "./App.css";
-import Calculator from "./components/Calculator";
-
+import HomePage from "./pages/HomePage";
 function App() {
-  return (
-    <div className="parent_section">
-      <Calculator />
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
