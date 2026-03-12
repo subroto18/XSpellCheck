@@ -10,7 +10,6 @@ const useDictionary = () => {
   useEffect(() => {
     const fetchDictionary = async () => {
       try {
-        await new Promise((resolve) => setTimeout(resolve, 500));
         setData(dictionary);
       } catch (err: unknown) {
         console.log(err);
