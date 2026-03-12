@@ -22,7 +22,7 @@ const Index = () => {
       </div>
       {misspelled && (
         <p className="definition">
-          Did you mean:<strong>{misspelled}</strong>?
+          Did you mean: <strong>{misspelled}</strong>?
         </p>
       )}
     </Layout>
